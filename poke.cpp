@@ -8,14 +8,14 @@ using namespace std;
 int main(void){
     int a,b,c;
     long int b1;
-	double a2,b2,c2;
+    double a2,b2,c2;
     long int n;
 	ofstream SaveFile("poke.txt");
 	a2 = b2 = c2 = 0;
 	cin>>n;
 	srand((int)time(0));
 	for(long int i = 0;i<n;i++){
-		a = random(3);
+	        a = random(3);
 		b1 = random(2);
 		if(a==0){
 			switch (b1){
@@ -42,7 +42,7 @@ int main(void){
 			case 0:
 			b = 0;
 			break;
-		    case 1:
+		        case 1:
 			b = 1;
 			break;
 		    }
